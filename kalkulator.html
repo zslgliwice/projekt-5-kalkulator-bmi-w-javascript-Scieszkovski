@@ -22,11 +22,22 @@
 	
 	<main>
 	<article>
-		
+		<h1>KALKULATOR BMI</h1>
 
-		
+		<form id = "formulasz">
+			<label for = "wzrost">Twój wzrost (w metrach)</label>
+			<input class = "inputy" type = "number" id = "wzrost" step = "0.01" min = 1 max = 650>
+
+			<label for = "waga">Twoja waga (w kilogramach)</label>
+			<input class = "inputy" type = "number" id = "waga" step = "0.1" min = 1 max = 650>
+
+			<input type = "button" onclick = oblicz() value = "oblicz">
+
+		</form>
 	</article>	
 	</main>
+
+	<div id="bmi"></div>
 	
 	<script src="skrypt.js"></script>
 
