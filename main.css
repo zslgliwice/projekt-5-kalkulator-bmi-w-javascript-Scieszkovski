@@ -1,4 +1,39 @@
 body {
+
 	background-color: #111;
 	color: #efefef;	
+	text-align: center;
+
+}
+h1{
+
+font-size: 40px;
+
+}
+h1:hover{
+
+	color: red;
+	font-size: 45px;
+	
+
+}
+.inputy{
+
+	border: 3px solid white;
+	background-color: #111;
+	height: 20px;
+	width: 120px;
+
+}
+.inputy:hover{
+
+	background-color: grey;
+
+
+}
+#formulasz{
+
+	font-size: 40px;
+
+
 }
